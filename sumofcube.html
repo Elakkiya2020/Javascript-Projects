@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Sum of cubes given number</title>
+</head>
+<body>
+</body>
+</html>
+<script type="text/javascript">
+function sum_Of_cubes(n)
+{
+    var sum =0;
+    for(var i =1; i<=n; i++)
+    {
+        sum += Math.pow(i,3);
+    }
+
+    return sum;
+}   
+console.log(sum_Of_Cubes(3));
+console.log(sum_Of_Cubes(4));
+</script>
