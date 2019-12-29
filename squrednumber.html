@@ -15,16 +15,11 @@ squared(100) ➞ 10000 -->
 </body>
 </html>
 <script type="text/javascript">
-function sum_Of_cubes(n)
+function squared(b)
 {
-    var sum =0;
-    for(var i =1; i<=n; i++)
-    {
-        sum += Math.pow(i,3);
-    }
-
-    return sum;
+return Math.pow(b,2);
 }   
-console.log(sum_Of_Cubes(3));
-console.log(sum_Of_Cubes(4));
+console.log(squared(5) );
+console.log(squared(9));
+console.log(squared(100));
 </script>
